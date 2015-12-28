@@ -1,0 +1,6 @@
+{
+  "ansible": {
+    ":playbook": "site.yml",
+    ":inventory_path": "vagrant/inventory"
+  }
+}
