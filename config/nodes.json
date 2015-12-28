@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "app01": { 
+      ":node": "App-01",
+      ":box": "box-cutter/centos64",
+      ":ip": "192.168.33.91",
+      ":host": "app.server-01",
+      "ports": [
+        {
+          ":host": 2291,
+          ":guest": 22,
+          ":id": "ssh"
+        },
+        {
+          ":host": 9000,
+          ":guest": 9000,
+          ":id": "phpfpm-listen"
+        }
+      ],
+      ":memory": 512
+    },
+    "web01": {
+      ":box": "box-cutter/centos64",
+      ":node": "Web-01",
+      ":ip": "192.168.33.81",
+      ":host": "web.server-01",
+      "ports": [
+        {
+          ":host": 2281,
+          ":guest": 22,
+          ":id": "ssh"
+        },
+        {
+          ":host": 8080,
+          ":guest": 80,
+          ":id": "nginx"
+        }
+      ],
+      ":memory": 512
+    }
+  }
