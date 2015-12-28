@@ -29,6 +29,18 @@ By default, the playbook provisions a `web` and `app` node in the `webservers` a
 OS:
 - RHEL/CentOS 6.x.
 
+Roles
+-----
+
+- ca-certificates
+- git
+- libselinux-python
+- nginx
+- php
+- repo-epel-release
+- repo-webtatic
+- vim
+
 Usage
 -----
 
