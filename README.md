@@ -29,3 +29,14 @@ By default, the playbook provisions a `web` and `app` node in the `webservers` a
 OS:
 - RHEL/CentOS 6.x.
 
+Usage
+-----
+
+Clone repo:
+    
+    $ git clone <repo> ./ansible
+
+Install Ansible Galaxy requirements.
+
+    $ ansible-galaxy install -r requirements.yml -p roles/ --ignore-errors
+
