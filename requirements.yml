@@ -1,0 +1,32 @@
+---
+  - src: https://github.com/ericmdev/ansible-role-libselinux-python
+    version: 1.0.2
+    name: libselinux-python
+
+  - src: https://github.com/ericmdev/ansible-role-repo-epel-release
+    version: 1.0.0
+    name: repo-epel-release
+
+  - src: https://github.com/ericmdev/ansible-role-ca-certificates
+    version: 1.0.0
+    name: ca-certificates
+
+  - src: https://github.com/ericmdev/ansible-role-repo-webtatic
+    version: 1.0.1
+    name: repo-webtatic
+
+  - src: https://github.com/ericmdev/ansible-vim.git
+    version: 1.1.0
+    name: vim
+
+  - src: https://github.com/ericmdev/ansible-role-git
+    version: 1.0.6
+    name: git
+
+  - src: https://github.com/ericmdev/ansible-role-nginx
+    version: 1.4.1
+    name: nginx
+
+  - src: https://github.com/ericmdev/ansible-role-php
+    version: 1.7.3
+    name: php
