@@ -40,3 +40,9 @@ Install Ansible Galaxy requirements.
 
     $ ansible-galaxy install -r requirements.yml -p roles/ --ignore-errors
 
+Vagrant
+-------
+
+Vagrant up:
+
+    $ vagrant up
