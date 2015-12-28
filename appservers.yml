@@ -8,4 +8,5 @@
     - ca-certificates
     - repo-webtatic
     - git
+    - vim
     - php
