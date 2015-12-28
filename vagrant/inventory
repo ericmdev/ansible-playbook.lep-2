@@ -1,0 +1,7 @@
+# inventory file for vagrant box
+
+[appservers]
+app01 ansible_ssh_host=192.168.33.91 ansible_ssh_port=22
+
+[webservers]
+web01 ansible_ssh_host=192.168.33.81 ansible_ssh_port=22

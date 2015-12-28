@@ -1,0 +1,31 @@
+---
+workspace: /root
+hostname: appservers
+
+php_packages:
+  - php70w
+  - php70w-cli
+  - php70w-common
+  - php70w-devel
+  - php70w-gd
+  - php70w-mbstring
+  - php70w-pdo
+  - php70w-xml
+  - php70w-fpm
+php_enable_webserver: false
+php_enable_php_fpm: true
+php_use_managed_ini: true
+php_memory_limit: "256M"
+php_max_execution_time: "60"
+php_max_input_time: "60"
+php_max_input_vars: "1000"
+php_realpath_cache_size: "32K"
+php_upload_max_filesize: "64M"
+php_post_max_size: "32M"
+php_date_timezone: "Europe/London"
+php_sendmail_path: "/usr/sbin/sendmail -t -i"
+php_short_open_tag: false
+php_error_reporting: "E_ALL & ~E_DEPRECATED & ~E_STRICT"
+php_display_errors: "Off"
+php_display_startup_errors: "On"
+php_expose_php: "On"

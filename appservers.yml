@@ -1,0 +1,12 @@
+- hosts: appservers
+  gather_facts: yes
+  vars_files:
+    - group_vars/appservers.yml
+  roles:
+    - libselinux-python
+    - repo-epel-release
+    - ca-certificates
+    - repo-webtatic
+    - git
+    - vim
+    - php
