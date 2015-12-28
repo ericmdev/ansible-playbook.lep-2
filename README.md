@@ -48,7 +48,7 @@ Clone repo:
     
     $ git clone <repo> ./ansible
 
-Install Ansible Galaxy requirements.
+Ansible Galaxy install requirements.
 
     $ ansible-galaxy install -r requirements.yml -p roles/ --ignore-errors
 
