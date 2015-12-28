@@ -1,7 +1,7 @@
 Ansible: NGINX - PHP (2-Tier)
 =============================
 
-Ansible playbook to provision nginx webservers and php (5/7) application servers in a 2-tier architecture.
+Ansible playbook to provision nginx web servers and php (5/7) application servers.
 
 By default, the playbook provisions a `web` and `app` node in the `webservers` and `appservers` groups, respectively, using the following configurations declared in `group_vars/`:
 
