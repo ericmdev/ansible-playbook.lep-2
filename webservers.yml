@@ -1,0 +1,11 @@
+- hosts: webservers
+  gather_facts: yes
+  vars_files:
+    - group_vars/webservers.yml
+  roles:
+    - libselinux-python
+    - repo-epel-release
+    - ca-certificates
+    - git
+    - vim
+    - nginx
