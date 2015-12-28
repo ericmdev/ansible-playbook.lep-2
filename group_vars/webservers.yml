@@ -1,0 +1,10 @@
+---
+workspace: /root
+hostname: webservers
+
+nginx_user: "nginx"
+nginx_vhosts:
+  - listen: "80 default_server"
+    server_name: "example.com"
+    root: "/srv/app/public"
+    index: "index.php"
