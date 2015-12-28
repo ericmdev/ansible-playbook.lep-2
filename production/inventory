@@ -1,0 +1,2 @@
+# inventory file for production servers
+example ansible_ssh_host=xx.xx.xx.x ansible_ssh_port=22
