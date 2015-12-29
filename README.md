@@ -1,7 +1,9 @@
-Ansible: NGINX - PHP (2-Tier)
-=============================
+Ansible: LEP (NGINX - PHP) - 2-Tier
+===================================
 
-Ansible playbook to provision nginx web servers and php (5/7) application servers.
+Ansible playbook to provision a 2-tier LEP (Linux, NGINX, PHP) stack.
+
+NGINX web server and php application tiers are configured separately.
 
 By default, the playbook provisions a `web` and `app` node in the `webservers` and `appservers` groups, respectively, using the following configurations declared in `group_vars/`:
 
