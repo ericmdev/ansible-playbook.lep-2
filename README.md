@@ -1,9 +1,8 @@
-Ansible: LEP (NGINX - PHP) - 2-Tier
-===================================
+## Ansible: LEP (NGINX - PHP) - 2-Tier
 
-Ansible playbook to provision a 2-tier LEP (Linux, NGINX, PHP) stack.
+[Ansible](http://www.ansible.com/) **playbook** to provision a 2-tier LEP ([Linux](http://www.linux.org/), [NGINX](http://nginx.org/), [PHP](http://php.net/)) stack.
 
-NGINX web server and php application tiers are configured separately.
+NGINX web server and PHP application tiers are configured separately.
 
 By default, the playbook provisions a `web` and `app` node in the `webservers` and `appservers` groups, respectively, using the following configurations declared in `group_vars/`:
 
@@ -31,8 +30,7 @@ By default, the playbook provisions a `web` and `app` node in the `webservers` a
 OS:
 - RHEL/CentOS 6.x.
 
-Roles
------
+### Roles
 
 - ca-certificates
 - git
@@ -43,8 +41,7 @@ Roles
 - repo-webtatic
 - vim
 
-Usage
------
+### Usage
 
 Clone repo:
     
@@ -54,8 +51,7 @@ Ansible Galaxy install requirements.
 
     $ ansible-galaxy install -r requirements.yml -p roles/ --ignore-errors
 
-Vagrant
--------
+### Vagrant
 
 Vagrant up:
 
