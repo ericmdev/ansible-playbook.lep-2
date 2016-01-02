@@ -1,6 +1,6 @@
 ## Ansible: LEP (2-Tier)
 
-[Ansible](http://www.ansible.com/) **playbook** to provision a 2-tier LEP ([Linux](http://www.linux.org/), [NGINX](http://nginx.org/), [PHP](http://php.net/)) stack.
+[Ansible](http://www.ansible.com/) **playbook** to provision a LEP ([Linux](http://www.linux.org/), [NGINX](http://nginx.org/), [PHP](http://php.net/)) stack (2-tier).
 
 NGINX web server and PHP application tiers are configured separately.
 
