@@ -27,7 +27,7 @@ By default, the playbook provisions a `web` and `app` node in the `webservers` a
       + php70w-fpm
     ...
 
-OS:
+**OS**
 - RHEL/CentOS 6.x.
 
 ### Roles
@@ -41,7 +41,7 @@ OS:
 - repo-webtatic
 - vim
 
-### Usage
+### Installation
 
 Clone repo:
     
@@ -51,8 +51,8 @@ Ansible Galaxy install requirements.
 
     $ ansible-galaxy install -r requirements.yml -p roles/ --ignore-errors
 
-### Vagrant
+### Usage
 
-Vagrant up:
+Vagrant up.
 
     $ vagrant up
