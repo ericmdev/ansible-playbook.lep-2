@@ -1,4 +1,4 @@
-## Ansible: LEP (NGINX - PHP) - 2-Tier
+## Ansible: LEP (2-Tier)
 
 [Ansible](http://www.ansible.com/) **playbook** to provision a 2-tier LEP ([Linux](http://www.linux.org/), [NGINX](http://nginx.org/), [PHP](http://php.net/)) stack.
 
