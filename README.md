@@ -2,8 +2,6 @@
 
 [Ansible](http://www.ansible.com/) **playbook** to provision a LEP ([Linux](http://www.linux.org/), [NGINX](http://nginx.org/), [PHP](http://php.net/)) stack (2-tier).
 
-NGINX web server and PHP application tiers are configured separately.
-
 By default, the playbook provisions a `web` and `app` node in the `webservers` and `appservers` groups, respectively, using the following configurations declared in `group_vars/`:
 
     # group_vars/webservers.yml
