@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Ansible Galaxy install requirements.
+ansible-galaxy install -r requirements.yml -p roles/ --ignore-errors

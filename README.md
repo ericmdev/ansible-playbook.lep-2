@@ -1,4 +1,4 @@
-## Ansible: LEP (2-Tier)
+## Ansible Playbook: LEP (2-Tier)
 
 [Ansible](http://www.ansible.com/) **playbook** to provision a LEP ([Linux](http://www.linux.org/), [NGINX](http://nginx.org/), [PHP](http://php.net/)) stack (2-tier).
 
@@ -41,15 +41,17 @@ By default, the playbook provisions a `web` and `app` node in the `webservers` a
 - repo-webtatic
 - vim
 
-### Installation
+### Clone
 
-Clone repo:
+Clone repo into your project:
     
-    $ git clone <repo> ./ansible
+    $ git clone <repo> ./ansible-playbook-lep-2
+
+### Installation
 
 Ansible Galaxy install requirements.
 
-    $ ansible-galaxy install -r requirements.yml -p roles/ --ignore-errors
+    $ sh bin/install
 
 ### Usage
 
