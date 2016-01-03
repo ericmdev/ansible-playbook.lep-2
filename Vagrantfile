@@ -2,12 +2,12 @@
 # vi: set ft=ruby :
 
 # Read JSON configuration files.
-nodes_config = (JSON.parse(File.read("config/nodes.json")))['nodes']
-ansible_config  = (JSON.parse(File.read("config/ansible.json")))['ansible']
+nodes_config = (JSON.parse(File.read("vagrant/config/nodes.json")))['nodes']
+ansible_config  = (JSON.parse(File.read("vagrant/config/ansible.json")))['ansible']
 
 Vagrant.configure("2") do |config|
 
-  config.vm.provision "shell", inline: "echo ansible.nginx-php-2tier environment"
+  config.vm.provision "shell", inline: "echo ansible.lep-2 environment"
 
   nodes_config.each do |node|
     node_name   = node[0] # name of node
