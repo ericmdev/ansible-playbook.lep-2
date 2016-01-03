@@ -43,7 +43,7 @@ By default, the playbook provisions a `web` and `app` node in the `webservers` a
 
 ### Clone
 
-Clone repo into your project:
+Clone repo:
     
     $ git clone <repo> ./ansible-playbook-lep-2
 
